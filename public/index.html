@@ -13,22 +13,24 @@
 <body>
 
   <!-- HEADER -->
-  <div id='page-header'>
+  <header>
 
     <!-- LOGO -->
-    <img src='images/photome.png' alt='Profile Pic' width='512'>
-    <h2>Name | Portfolio</h2>
+    <h2 id='page-header'>
+      <img src='images/photome.png' alt='Profile Pic'>
+      Name | Portfolio
+    </h2>
 
     <!-- NAVIGATION -->
-    <nav>
+    <nav id='main-navigation'>
       <ul>
-        <li><a href='#'></a>Pricing</li>
-        <li><a href='#'></a>About</li>
-        <li><a href='#'></a>Signup</li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#services'>Services</a></li>
+        <li><a href='#testimonies'>Testimonials</a></li>
       </ul>
     </nav>
 
-  </div>
+  </header>
 
   <!-- MAIN -->
   <div id='page-main'>
@@ -37,94 +39,97 @@
     <div class='hero'>
       <div class='hero-content'>
         <h1 class='hero-title'>TITLE</h1>
-        <p class='hero-tagline'>Tagline Goes Here</p>
+        <p>Tagline Goes Here</p>
       </div>
-    </div>
-
-    <!-- SERVICES -->
-    <div class='site-section'>
-
-      <div class='section-header'>
-        <h2>Key Services</h2>
-      </div>
-
-      <div class='service-box'>
-        <img src='images/coding.png' alt='Coding Image' width='64'>
-        <h4>Coding</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
-          convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
-          tincidunt. Duis et ligula augue.</p>
-      </div>
-
-      <div class='service-box'>
-        <img src='images/idea.png' alt='Lightbulb Image' width='64'>
-        <h4>Creating</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
-          convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
-          tincidunt. Duis et ligula augue.</p>
-      </div>
-
-      <div class='service-box'>
-        <img src='images/heart.png' alt='Profile Pic' width='64'>
-        <h4>Compassionating</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
-          convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
-          tincidunt. Duis et ligula augue.</p>
-      </div>
-
     </div>
 
     <!-- ABOUT -->
-    <div class='section-header about'>
+    <div id='about' class='section-header about'>
       <h2>About Me</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
         convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
         tincidunt. Duis et ligula augue.</p>
     </div>
 
-    <!-- TESTIMONIALS -->
-    <section class='testimonials-section testimonials-section-secondary'>
+    <!-- SERVICES, to be converted to SKILLS later and moved below about -->
+    <div id='services' class='site-section services-section'>
 
-      <div class='testimonials-section-inside'>
+      <div class='section-header'>
+        <h2>Key Services</h2>
+      </div>
+
+      <div class='site-section-inside'>
+        <div class='service-box'>
+          <img src='images/coding.png' alt='Coding Image'>
+          <h4>Coding</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
+            convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
+            tincidunt. Duis et ligula augue.</p>
+        </div>
+
+        <div class='service-box'>
+          <img src='images/idea.png' alt='Lightbulb Image'>
+          <h4>Creating</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
+            convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
+            tincidunt. Duis et ligula augue.</p>
+        </div>
+
+        <div class='service-box'>
+          <img src='images/heart.png' alt='Profile Pic'>
+          <h4>Compassionating</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
+            convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
+            tincidunt. Duis et ligula augue.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TESTIMONIALS, to be converted to projects later -->
+    <!-- <section class='site-section testimonials-section-secondary'> -->
+    <section id='testimonies' class='site-section'>
+
+      <div class='site-section-inside'>
         <div class='section-header'>
           <h2>Testimonials</h2>
         </div>
       </div>
 
-      <div class='testimonials-box'>
+      <div class='testimonial-box'>
         <div class='testimonial-content'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
           convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
           tincidunt. Duis et ligula augue.
         </div>
         <div class='testimonial-author'>
-          <img src='images/avatar.png' alt='Avatar Image' width='64'>
+          <img src='images/avatar.png' alt='Avatar Image'>
           <h5>Some Name</h5>
           <span>Title</span>
         </div>
       </div>
 
-      <div class='testimonials-box'>
+      <div class='testimonial-box'>
         <div class='testimonial-content'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
           convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
           tincidunt. Duis et ligula augue.
         </div>
         <div class='testimonial-author'>
-          <img src='images/avatar.png' alt='Avatar Image' width='64'>
+          <img src='images/avatar.png' alt='Avatar Image'>
           <h5>Some Name</h5>
           <span>Title</span>
         </div>
       </div>
 
-      <div class='testimonials-box'>
+      <div class='testimonial-box'>
         <div class='testimonial-content'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at vehicula mi. Cras eget tellus tincidunt,
           convallis justo id, tempor ex. Morbi vel varius lacus, vitae commodo ante. Maecenas suscipit at diam ac
           tincidunt. Duis et ligula augue.
         </div>
         <div class='testimonial-author'>
-          <img src='images/avatar.png' alt='Avatar Image' width='64'>
+          <img src='images/avatar.png' alt='Avatar Image'>
           <h5>Some Name</h5>
           <span>Title</span>
         </div>
@@ -135,8 +140,8 @@
 
   <!-- FOOTER -->
   <footer id='page-footer'>
-    <img src='images/photome.png' alt='Profile Pic' width='64'>
-    <span>My Portfolio<br/>&copy; 2019</span>
+    <img src='images/photome.png' alt='Profile Pic'>
+    <span>My Portfolio<br />&copy; 2019</span>
   </footer>
 
 </body>
