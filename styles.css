@@ -94,7 +94,7 @@ footer img   {
   max-height: 800px;
   text-align: center;
   background: #555;
-  background-image: url('images/background3.jpg');
+  background-image: url('public/images/background2.jpg');
   background-size: cover; 
 }
 
