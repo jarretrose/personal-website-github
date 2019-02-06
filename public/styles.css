@@ -1,2 +1,37 @@
 /* id should be used once; selector is a #
 /* class can be used more than once; selector is a .
+
+/*
+
+<div id='page-header'>
+<div id='page-main'>
+
+<div class='hero'>
+<div class='hero-content'>
+<h1 class='hero-title'>
+<p class='hero-tagline'>
+
+<div class='site-section'>
+<div class='section-header'>
+
+<div class='service-box'>
+
+<div class='section-header about'>
+
+<section class='testimonials-section testimonials-section-secondary'>
+
+<div class='testimonials-section-inside'>
+<div class='section-header'>
+<div class='testimonials-box'>
+<div class='testimonial-content'>
+<div class='testimonial-author'>
+
+<footer id='page-footer'>
+*/
+
+body {
+  color: blue;
+  text-align: center;
+}
+
+
