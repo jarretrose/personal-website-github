@@ -20,7 +20,7 @@ body {
 header {
   background: #222;
   color: #fff;
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 header #page-header {
@@ -69,22 +69,6 @@ header #main-navigation ul li a:hover {
   transition: 0.3s ease all;
 } 
 
-/* FOOTER */
-
-footer   {
-  background: #222;
-  color: #777;
-  padding: 40px;
-  text-align: center;
-}
-
-footer img   {
-  display: block;
-  border-radius: 5px;
-  width: 80px;
-  margin: 0 auto 10px;
-}
-
 /* MAIN CONTENT */
 
 /* HERO SECTION */
@@ -117,8 +101,7 @@ footer img   {
 /* SITE SECTION STYLINGS */
 
 .site-section {
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 0px 30px;
 }
 
 .section-header {
@@ -146,17 +129,13 @@ footer img   {
 
 /* ABOUT */
 
-body .about {
-  padding: 30px;
-}
-
 .about {
   background: #fff;
   width: 100%;
-  padding: 50px 0;
+  padding: 0px 40px;
 }
 
-/* FEATURE BOXES */
+/* SKILLS BOXES */
 
 .services-section {
   background: #ECF0F1;
@@ -184,7 +163,7 @@ body .about {
   letter-spacing: 2px;
 }
 
-/* TESTIMONIALS */
+/* PROJECTS */
 
 .testimonial-box {
   display: inline-block;
@@ -215,6 +194,22 @@ body .about {
 .testimonial-author span {
   color: #999;
   font-size:14px;
+}
+
+/* FOOTER */
+
+footer   {
+  background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
 }
 
 /* BASIC MOBILE RESPONSIVE */
