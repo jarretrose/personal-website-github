@@ -20,7 +20,7 @@ body {
 header {
   background: #222;
   color: #fff;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 
 header #page-header {
@@ -50,7 +50,6 @@ header #main-navigation {
 
 header #main-navigation ul {
   list-style: none;
-  padding: 0;
 }
 
 header #main-navigation ul li {
@@ -60,7 +59,7 @@ header #main-navigation ul li {
 header #main-navigation ul li a {
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 0px 15px;
 }
 
 header #main-navigation ul li a:hover {
@@ -95,18 +94,17 @@ header #main-navigation ul li a:hover {
 
 .hero-content p {
   font-size: 40px; 
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /* SITE SECTION STYLINGS */
 
 .site-section {
-  padding: 0px 30px;
+  padding: 20px 0px;
 }
 
 .section-header {
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* .site-section-inside {
@@ -121,6 +119,7 @@ header #main-navigation ul li a:hover {
   text-transform: uppercase;
   font-weight: 300;
   color: #777;
+  padding-top: 20px;
 }
 
 .site-section-secondary {
@@ -132,7 +131,11 @@ header #main-navigation ul li a:hover {
 .about {
   background: #fff;
   width: 100%;
-  padding: 0px 40px;
+  padding: 0px 30px;
+}
+
+.about p {
+  padding: 20px 0px;
 }
 
 /* SKILLS BOXES */
