@@ -10,7 +10,7 @@ class can be used more than once; selector is a .
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -90,12 +90,12 @@ footer img   {
 /* HERO SECTION */
 
 .hero {
-  min-height: 800px;
-  max-height: 800px;
+  min-height: 600px;
   text-align: center;
   background: #555;
-  background-image: url('public/images/background2.jpg');
+  background-image: url('public/images/background3.jpg');
   background-size: cover; 
+  background-color: #222;
 }
 
 .hero-content {
@@ -126,11 +126,11 @@ footer img   {
   margin-bottom: 30px;
 }
 
-.site-section-inside {
+/* .site-section-inside {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
 .section-header h2 {
   font-size: 30px;
@@ -146,6 +146,10 @@ footer img   {
 
 /* ABOUT */
 
+body .about {
+  padding: 30px;
+}
+
 .about {
   background: #fff;
   width: 100%;
@@ -153,6 +157,7 @@ footer img   {
 }
 
 /* FEATURE BOXES */
+
 .services-section {
   background: #ECF0F1;
 }
@@ -188,9 +193,9 @@ footer img   {
 }
 
 .testimonial-content {
-  background: #ECF0F1;
+  background: #f2f2f2;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 12px;
   margin-bottom: 15px;
 }
 
