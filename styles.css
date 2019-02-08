@@ -249,6 +249,7 @@ footer img   {
   }
   .hero-title {
       font-size: 30px;
+      padding: 0px 1px;
   }
   .hero-content p {
       font-size: 16px;
@@ -260,7 +261,6 @@ footer img   {
       border-width: 1px;
       background: #FFF;
       color: #333;
-      
   }
   
 /* FEATURE BOXES   */
