@@ -24,7 +24,7 @@ body {
 header {
   background: #222;
   color: #fff;
-  padding: 0px 30px;
+  padding: 10px 30px;
 }
 
 header #page-header {
@@ -234,6 +234,10 @@ footer img   {
       width: 100%;
       display: block; 
       text-align: center;
+  }
+
+  header #main-navigation ul {
+    padding: 0px;
   }
   
 /*  HERO  */
