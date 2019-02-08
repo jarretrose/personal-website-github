@@ -9,6 +9,10 @@ class can be used more than once; selector is a .
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
