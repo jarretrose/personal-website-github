@@ -219,6 +219,11 @@ footer img   {
   margin: 0 auto 10px;
 }
 
+footer p a {
+  color: #777;
+  text-decoration: none;
+}
+
 /* BASIC MOBILE RESPONSIVE */
 
 @media screen and (max-width: 768px) {
