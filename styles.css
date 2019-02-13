@@ -144,23 +144,23 @@ header #main-navigation ul li a:hover {
 
 /* SKILLS BOXES */
 
-.services-section {
+.skills-section {
   background: #ECF0F1;
 }
 
-.service-box {
+.skills-box {
   display: inline-block;
   width: 33%;
   padding: 20px 30px;
   line-height: 1;
 }
 
-.service-box img {
+.skills-box img {
   width: 80px;
   margin-bottom: 15px;
 }
 
-.service-box h5 {
+.skills-box h5 {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 20px;
@@ -172,33 +172,33 @@ header #main-navigation ul li a:hover {
 
 /* PROJECTS */
 
-.testimonial-box {
+.projects-box {
   display: inline-block;
   width: 33%;
   padding: 20px 30px;   
 }
 
-.testimonial-content {
+.projects-content {
   background: #f2f2f2;
   padding: 15px;
   border-radius: 12px;
   margin-bottom: 15px;
 }
 
-.testimonial-author img {
+.projects-title img {
   float: left; 
   width: 80px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.testimonial-author h5 {
+.projects-title h5 {
   font-size: 18px;
   margin: 0;
   padding-top: 15px;
 }
 
-.testimonial-author span {
+.projects-title span {
   color: #999;
   font-size:14px;
 }
@@ -269,13 +269,13 @@ footer p a {
   }
   
 /* FEATURE BOXES   */
-  .service-box {
+  .skills-box {
       width: 100%;
       display: block;
   }
   
 /* TESTIMONIAL BOXES   */
-  .testimonial-box {
+  .projects-box {
       width: 100%;
       display: block;
   }
