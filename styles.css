@@ -81,8 +81,12 @@ header #main-navigation ul li a:hover {
   text-align: center;
   background: #555;
   background-image: url('public/images/background3.jpg');
-  background-size: cover; 
   background-color: #222;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-content {
