@@ -261,14 +261,8 @@ footer p a {
       color: #333;
   }
   
-/* FEATURE BOXES   */
-  .skills-box {
-      width: 100%;
-      display: block;
-  }
-  
-/* TESTIMONIAL BOXES   */
-  .projects-box {
+/* CARDS BOXES   */
+  .cards-box {
       width: 100%;
       display: block;
   }
