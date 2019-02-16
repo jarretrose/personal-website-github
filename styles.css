@@ -114,12 +114,6 @@ header #main-navigation ul li a:hover {
   text-align: center;
 }
 
-/* .site-section-inside {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
 .section-header h2 {
   font-size: 30px;
   letter-spacing: 2px;
@@ -142,44 +136,36 @@ header #main-navigation ul li a:hover {
 }
 
 .about p {
-  padding: 20px 0px;
+  text-align: left;
 }
 
-/* SKILLS BOXES */
-
-.skills-section {
-  background: #ECF0F1;
-}
-
-.skills-box {
+/* CARDS */
+.cards-box {
   display: inline-block;
   width: 33%;
-  padding: 20px 30px;
+  padding: 20px 30px;   
 }
-
-.skills-box img {
-  width: 80px;
-  margin-bottom: 15px;
-}
-
-.skills-box h5 {
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: #999;
-  text-transform: uppercase;
-  font-weight: 300px;
-  letter-spacing: 2px;
-}
-
-/* PROJECTS */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+}
+
+.card-alt {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.card-text {
+  margin: 10px;
+}
+
+.card-alt h1 {
+  text-align: center;
 }
 
 .card img {
@@ -203,10 +189,11 @@ header #main-navigation ul li a:hover {
   opacity: 0.7;
 }
 
-.projects-box {
-  display: inline-block;
-  width: 33%;
-  padding: 20px 30px;   
+
+/* SKILLS BOXES */
+
+#skills {
+  background-color: whitesmoke;
 }
 
 /* FOOTER */
