@@ -174,35 +174,39 @@ header #main-navigation ul li a:hover {
 
 /* PROJECTS */
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card img {
+  width:100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
 .projects-box {
   display: inline-block;
   width: 33%;
   padding: 20px 30px;   
-}
-
-.projects-content {
-  background: #f2f2f2;
-  padding: 15px;
-  border-radius: 12px;
-  margin-bottom: 15px;
-}
-
-.projects-title img {
-  float: left; 
-  width: 80px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.projects-title h5 {
-  font-size: 18px;
-  margin: 0;
-  padding-top: 15px;
-}
-
-.projects-title span {
-  color: #999;
-  font-size:14px;
 }
 
 /* FOOTER */
