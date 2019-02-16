@@ -17,7 +17,7 @@ body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 
 /* HEADER STYLES */
@@ -92,7 +92,6 @@ header #main-navigation ul li a:hover {
 .hero-content {
   color: #000;
   padding-top: 130px;
-  line-height: 1;
 }
 
 .hero-title {
@@ -156,7 +155,6 @@ header #main-navigation ul li a:hover {
   display: inline-block;
   width: 33%;
   padding: 20px 30px;
-  line-height: 1;
 }
 
 .skills-box img {
