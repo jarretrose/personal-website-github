@@ -22,13 +22,13 @@ body {
 
 /* HEADER STYLES */
 header {
-  background: #222;
+  background: linear-gradient(to right, gray, #222);
   color: #fff;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   padding: 10px 30px;
 }
 
 header #page-header {
-  color: white;
   text-decoration: none;
   width: 49%; 
   display: inline-block
@@ -80,7 +80,7 @@ header #main-navigation ul li a:hover {
   min-height: 600px;
   text-align: center;
   background: #555;
-  background-image: url('public/images/background3.jpg');
+  background-image: url('public/images/background.jpg');
   background-color: #222;
   height: 50%;
   background-position: center;
@@ -91,6 +91,7 @@ header #main-navigation ul li a:hover {
 
 .hero-content {
   color: #000;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   padding-top: 130px;
 }
 
@@ -119,7 +120,8 @@ header #main-navigation ul li a:hover {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #777;
+  color: black;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   padding-top: 20px;
 }
 
@@ -144,33 +146,42 @@ header #main-navigation ul li a:hover {
   display: inline-block;
   width: 33%;
   padding: 20px 30px;   
+  vertical-align: top;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px grey;
+  border: 1px solid lightgray;
   max-width: 300px;
   margin: auto;
   text-align: center;
 }
 
+.card h1 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
 .card-alt {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px grey;
+  border: 1px solid lightgray;
+  padding-top: 10px; 
   max-width: 300px;
   margin: auto;
   text-align: left;
+  background: white;
 }
 
 .card-text {
-  margin: 10px;
+  padding: 10px;
 }
 
 .card-alt h1 {
   text-align: center;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .card img {
   width:100%;
-  border-bottom: 1px solid lightgray;
 }
 
 .card button {
@@ -189,7 +200,6 @@ header #main-navigation ul li a:hover {
   opacity: 0.7;
 }
 
-
 /* SKILLS BOXES */
 
 #skills {
@@ -199,8 +209,10 @@ header #main-navigation ul li a:hover {
 /* FOOTER */
 
 footer   {
-  background: #222;
-  color: #777;
+  /* background: #222; */
+  background: linear-gradient(to right, gray, #222);
+  color: lightgray;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   padding: 40px;
   text-align: center;
 }
@@ -213,7 +225,7 @@ footer img   {
 }
 
 footer p a {
-  color: #777;
+  color: lightgray;
   text-decoration: none;
 }
 
@@ -267,24 +279,3 @@ footer p a {
       display: block;
   }
 }
-
-
-/* 
-
-background
-
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@minkmingle?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Mink Mingle"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Mink Mingle</span></a> 
-*/
-
-/* 
-background2
-
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@aleksandraboguslawska?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Aleksandra Boguslawska"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Aleksandra Boguslawska</span></a>
-*/
-
-/*
-background3
-
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@frankiefoto?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from frank mckenna"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">frank mckenna</span></a>
-
-*/
