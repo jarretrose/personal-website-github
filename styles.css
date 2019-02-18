@@ -75,7 +75,6 @@ header #main-navigation ul li a:hover {
 /* MAIN CONTENT */
 
 /* HERO SECTION */
-
 .hero {
   min-height: 600px;
   text-align: center;
@@ -106,7 +105,6 @@ header #main-navigation ul li a:hover {
 }
 
 /* SITE SECTION STYLINGS */
-
 .site-section {
   padding: 20px 0px;
 }
@@ -130,7 +128,6 @@ header #main-navigation ul li a:hover {
 }
 
 /* ABOUT */
-
 .about {
   background: #fff;
   width: 100%;
@@ -201,10 +198,58 @@ header #main-navigation ul li a:hover {
 }
 
 /* SKILLS BOXES */
-
 #skills {
   background-color: whitesmoke;
 }
+
+/* PROJECT MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(128,181,202);
+  background-color: rgb(128,181,202,.4);
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  box-shadow: 20px 20px 10px #222;
+  animation-name: animatedModal;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animatedModal {
+  0% { top: -300px; }
+  100% {top: 100px; }
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 /* FOOTER */
 
