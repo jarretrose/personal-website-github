@@ -22,7 +22,7 @@ body {
 
 /* HEADER STYLES */
 header {
-  background: linear-gradient(to right, gray, #222);
+  background: linear-gradient(to right, #7d8a8f, #060707);
   color: #fff;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   padding: 10px 30px;
@@ -199,7 +199,7 @@ header #main-navigation ul li a:hover {
 
 /* SKILLS BOXES */
 #skills {
-  background-color: whitesmoke;
+  background-color: rgba(70,78,81,.2)
 }
 
 /* PROJECT MODAL */
@@ -213,7 +213,7 @@ header #main-navigation ul li a:hover {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(82,103,123,.7);
+  background-color: rgba(82,103,123,.7);
   animation-name: backgroundFade;
   animation-duration: 1s;
 }
@@ -261,7 +261,7 @@ header #main-navigation ul li a:hover {
 
 footer   {
   /* background: #222; */
-  background: linear-gradient(to right, gray, #222);
+  background: linear-gradient(to right, #7d8a8f, #060707);
   color: lightgray;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   padding: 40px;
