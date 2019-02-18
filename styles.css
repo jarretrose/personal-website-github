@@ -213,7 +213,7 @@ header #main-navigation ul li a:hover {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(190,231,255,.6);
+  background-color: rgb(82,103,123,.7);
   animation-name: backgroundFade;
   animation-duration: 1s;
 }
