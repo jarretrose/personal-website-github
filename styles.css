@@ -305,10 +305,11 @@ header #main-navigation ul li a:hover {
 /* EMAIL FORM */
 .email-container {
   margin: auto;
-  width: 50%;
+  width: 33%;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 input[type=text], input[type=email], select, textarea {
@@ -407,4 +408,15 @@ footer p a {
       width: 100%;
       display: block;
   }
+
+/* EMAIL FORM */
+  .email-container {
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
 }
+
