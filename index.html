@@ -6,8 +6,8 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
   <link rel='stylesheet' href='styles.css'>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+    integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <script type='text/javascript' src='jsfile.js' defer></script>
   <title>jkr@home</title>
@@ -16,7 +16,7 @@
 <body>
 
   <!-- RETURN TO TOP BUTTON -->
-  <button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
+  <button onclick='topFunction()' id='topButton' title='Go to top'>Top</button>
 
   <!-- HEADER -->
   <header>
@@ -80,7 +80,7 @@
 
       <div class='cards-box'>
 
-        <div class="card-alt">
+        <div class='card-alt'>
           <h1>Code</h1>
           <div class='card-text'>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod odio a ipsum sagittis, sit amet
@@ -97,7 +97,7 @@
       </div>
 
       <div class='cards-box'>
-        <div class="card-alt">
+        <div class='card-alt'>
           <h1>Creativity</h1>
           <div class='card-text'>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod odio a ipsum sagittis, sit
@@ -114,7 +114,7 @@
       </div>
 
       <div class='cards-box'>
-        <div class="card-alt">
+        <div class='card-alt'>
           <h1>Compassion</h1>
           <div class='card-text'>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod odio a ipsum sagittis, sit
@@ -136,9 +136,8 @@
         <h2>Projects</h2>
       </div>
 
-
       <div class='cards-box'>
-        <div class="card">
+        <div class='card'>
           <img src='public/images/fullstackstrash.png' alt='project image'>
           <h1>Fullstacks of Trash</h1>
           <div class='card-text'>
@@ -149,18 +148,18 @@
       </div>
 
       <!-- PROJECT MODAL -->
-      <div id="project-modal" class="modal">
+      <div id='project-modal' class='modal'>
 
         <!-- MODAL CONTENT -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
+        <div class='modal-content'>
+          <span class='close'>&times;</span>
           <p>more information about the project</p>
         </div>
       </div>
 
 
       <div class='cards-box'>
-        <div class="card">
+        <div class='card'>
           <img src='public/images/kidquest.png' alt='project image'>
           <h1>Kid Quest!</h1>
           <div class='card-text'>
@@ -171,18 +170,17 @@
       </div>
 
       <!-- PROJECT MODAL -->
-      <div id="project-modal" class="modal">
+      <div id='project-modal' class='modal'>
 
         <!-- MODAL CONTENT -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
+        <div class='modal-content'>
+          <span class='close'>&times;</span>
           <p>more information about the project</p>
         </div>
       </div>
 
-
       <div class='cards-box'>
-        <div class="card">
+        <div class='card'>
           <img src='public/images/fridgeraider.png' alt='project image'>
           <h1>Fridge Raider</h1>
           <div class='card-text'>
@@ -193,11 +191,11 @@
       </div>
 
       <!-- PROJECT MODAL -->
-      <div id="project-modal" class="modal">
+      <div id='project-modal' class='modal'>
 
         <!-- MODAL CONTENT -->
-        <div class="modal-content">
-          <span class="close">&times;</span>
+        <div class='modal-content'>
+          <span class='close'>&times;</span>
           <p>more information about the project</p>
         </div>
       </div>
@@ -208,13 +206,40 @@
       <div class='section-header'>
         <h2>Connect</h2>
 
+        <p>You can find me here...</p>
         <div class='connect-icons'>
-          <a href='https://github.com/jarretrose' target="_blank">
-            <i class="fab fa-github-square"></i></a>
+          <a href='https://github.com/jarretrose' target='_blank'>
+            <i class='fab fa-github-square'></i></a>
 
-          <a href='https://www.linkedin.com/in/jarret-rose/' target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href='https://www.linkedin.com/in/jarret-rose/' target='_blank'><i class='fab fa-linkedin'></i></a>
 
-          <a href='https://twitter.com/JarretRose' target='blank'><i class="fab fa-twitter-square"></i></a>
+          <a href='https://twitter.com/JarretRose' target='blank'><i class='fab fa-twitter-square'></i></a>
+        </div>
+
+        <!-- EMAIL FORM -->
+        <p style='padding-top: 20px'>Or send me an email!</p>
+
+        <div class='email-container'>
+          <form action='https://formspree.io/jarretrose@email.com' method='POST'>
+
+            <label for='firstname'>First Name</label>
+            <input type='text' id='firstname' name='firstname' placeholder='Your name...'>
+
+            <label for='lastname'>Last Name</label>
+            <input type='text' id='lastname' name='lastname' placeholder='Your last name...'>
+
+            <label for='replyto'>Reply-To Email</label>
+            <input type='email' id='email' name='email' placeholder='you@youremail.com'>
+
+            <label for='subject'>Subject</label>
+            <input type='text' id='subject' name='subject' placeholder="Your email's subject...">
+
+            <label for='message'>Message</label>
+            <textarea id='message' name='message' placeholder='Write your message here...' style='height:200px'></textarea>
+
+            <input type='submit' value='Submit'>
+
+          </form>
         </div>
 
       </div>
@@ -224,12 +249,8 @@
 
   <!-- FOOTER -->
   <footer id='page-footer'>
-    <!-- <img src='public/images/photome.png' alt='Profile Pic'> -->
-    <!-- <span>My Portfolio<br />&copy; 2019</span> -->
     <p><a href='reset.html'>Bad Day?</a></p>
-
   </footer>
 
 </body>
-
 </html>
