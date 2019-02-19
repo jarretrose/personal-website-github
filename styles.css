@@ -3,8 +3,7 @@ id should be used once; selector is a #
 class can be used more than once; selector is a .
 */ 
 
-/* default styling for entire body */
-
+/* DEFAULT STYLING */
 * {
   box-sizing: border-box;
 }
@@ -14,7 +13,7 @@ html {
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.25;
@@ -101,10 +100,6 @@ header #main-navigation ul li a:hover {
   transition: 0.3s ease all;
 } 
 
-.fab {
-  font-size: 30px;
-}
-
 /* MAIN CONTENT */
 
 /* HERO SECTION */
@@ -139,7 +134,19 @@ header #main-navigation ul li a:hover {
 
 /* SITE SECTION STYLINGS */
 .site-section {
-  padding: 20px 0px;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* MAIN BACKGROUND COLORS */
+.mainbg {
+  background-color: rgba(255,255,255,1);
+}
+
+/* ALT BACKGROUND COLORS */
+.altbg  {
+  background-color: rgba(70,78,81,.2);
 }
 
 .section-header {
@@ -153,18 +160,12 @@ header #main-navigation ul li a:hover {
   font-weight: 300;
   color: black;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  padding-top: 20px;
-}
-
-.site-section-secondary {
-  background: #EFEFEF;
 }
 
 /* ABOUT */
+
 .about {
-  background: #fff;
-  width: 100%;
-  padding: 0px 30px;
+  padding: 0 30px 0 30px;
 }
 
 .about p {
@@ -230,11 +231,6 @@ header #main-navigation ul li a:hover {
   opacity: 0.7;
 }
 
-/* SKILLS BOXES */
-#skills {
-  background-color: rgba(70,78,81,.2)
-}
-
 /* PROJECT MODAL */
 .modal {
   display: none;
@@ -289,6 +285,18 @@ header #main-navigation ul li a:hover {
   cursor: pointer;
 }
 
+/* CONNECT */
+
+.connect-icons {
+  font-size: 40px;
+  padding: 0 10px 0 10px;
+}
+
+.connect a {
+  color: rgba(0,0,0,.7);
+  text-decoration: none;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
 
 /* FOOTER */
 
