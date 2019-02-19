@@ -286,7 +286,6 @@ header #main-navigation ul li a:hover {
 }
 
 /* CONNECT */
-
 .connect-icons {
   font-size: 40px;
   padding: 0 10px 0 10px;
@@ -303,7 +302,31 @@ header #main-navigation ul li a:hover {
 }
 
 /* EMAIL FORM */
-.email-container {
+.email-wrapper {
+  padding: 20px 0;
+}
+
+#emailer-button {
+  background-color: rgba(0,0,0,.7);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+#emailer {
   margin: auto;
   width: 33%;
   border-radius: 5px;

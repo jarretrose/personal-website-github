@@ -2,13 +2,13 @@
 const modal = document.getElementById('project-modal');
 const span = document.getElementsByClassName('close')[0];
 
-const btn = document.getElementById('modal-button');
-const btn2 = document.getElementById('modal-button2');
-const btn3 = document.getElementById('modal-button3');
+const modalBtn = document.getElementById('modal-button');
+const modalBtn2 = document.getElementById('modal-button2');
+const modalBtn3 = document.getElementById('modal-button3');
 
-btn.onclick = () => modal.style.display = 'block';
-btn2.onclick = () => modal.style.display = 'block';
-btn3.onclick = () => modal.style.display = 'block';
+modalBtn.onclick = () => modal.style.display = 'block';
+modalBtn2.onclick = () => modal.style.display = 'block';
+modalBtn3.onclick = () => modal.style.display = 'block';
 
 span.onclick = () => modal.style.display = 'none';
 
@@ -17,20 +17,33 @@ window.onclick = () =>
 
 
 // RETURN TO TOP BUTTON
-window.onscroll = function() {scrollFunction()};
+window.onscroll = () => scrollFunction();
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("topButton").style.display = "block";
-  } else {
-    document.getElementById("topButton").style.display = "none";
-  }
+const scrollFunction = () => {
+  const body = document.body.scrollTop
+  const element = document.documentElement.scrollTop
+  const topBtn = document.getElementById("topButton")
+
+  if (body > 20 || element > 20) { topBtn.style.display = "block";} 
+  else { topBtn.style.display = "none"; }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; // Safari
+  document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, Opera
+}
+
+/* HIDE / SHOW EMAIL FORM */
+const toggleEmail = () => {
+  const emailer = document.getElementById('emailer')
+  const connect = document.getElementById('connect')
+  
+  if (emailer.style.display === 'none') {
+    emailer.style.display = 'block'
+    emailer.scrollIntoView()
+  } else {
+    emailer.style.display = 'none'
+  }
 }
 
 // ********************

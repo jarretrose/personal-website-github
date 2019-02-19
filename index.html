@@ -217,29 +217,31 @@
         </div>
 
         <!-- EMAIL FORM -->
-        <p style='padding-top: 20px'>Or send me an email!</p>
+        <div class='email-wrapper'>
+            <button onclick='toggleEmail()' id='emailer-button'>Or Send Me An Email</button>
 
-        <div class='email-container'>
-          <form action='https://formspree.io/jarretrose@gmail.com' method='POST'>
-
-            <label for='firstname'>First Name</label>
-            <input type='text' id='firstname' name='firstname' placeholder='Your name...'>
-
-            <label for='lastname'>Last Name</label>
-            <input type='text' id='lastname' name='lastname' placeholder='Your last name...'>
-
-            <label for='replyto'>Reply-To Email</label>
-            <input type='email' id='email' name='email' placeholder='you@youremail.com'>
-
-            <label for='subject'>Subject</label>
-            <input type='text' id='subject' name='subject' placeholder="Your email's subject...">
-
-            <label for='message'>Message</label>
-            <textarea id='message' name='message' placeholder='Write your message here...' style='height:200px'></textarea>
-
-            <input type='submit' value='Submit'>
-
-          </form>
+            <div id='emailer' style='display:none'>
+              <form action='https://formspree.io/jarretrose@gmail.com' method='POST'>
+    
+                <label for='firstname'>First Name</label>
+                <input type='text' id='firstname' name='firstname' placeholder='Your name...'>
+    
+                <label for='lastname'>Last Name</label>
+                <input type='text' id='lastname' name='lastname' placeholder='Your last name...'>
+    
+                <label for='replyto'>Reply-To Email</label>
+                <input type='email' id='email' name='email' placeholder='you@youremail.com'>
+    
+                <label for='subject'>Subject</label>
+                <input type='text' id='subject' name='subject' placeholder="Your email's subject...">
+    
+                <label for='message'>Message</label>
+                <textarea id='message' name='message' placeholder='Write your message here...' style='height:200px'></textarea>
+    
+                <input type='submit' value='Submit'>
+    
+              </form>
+            </div>
         </div>
 
       </div>
