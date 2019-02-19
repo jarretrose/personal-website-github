@@ -312,11 +312,12 @@ header #main-navigation ul li a:hover {
   color: white;
   padding: 15px 32px;
   margin-bottom: 20px;
+  border-radius: 15px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   -webkit-touch-callout:none;
   -webkit-user-select:none;
   -khtml-user-select:none;
