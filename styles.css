@@ -79,13 +79,14 @@ header #main-navigation ul {
 }
 
 header #main-navigation ul li {
-  display: inline-block; 
+  display: inline-block;
+  padding: 10px;
 }
 
 header #main-navigation ul li a {
   color: white;
   text-decoration: none;
-  padding: 0px 15px;
+  /* padding: 0px 15px; */
 }
 
 header #main-navigation ul li a:hover {
@@ -93,6 +94,10 @@ header #main-navigation ul li a:hover {
   border-radius: 3px;
   transition: 0.3s ease all;
 } 
+
+.fab {
+  font-size: 30px;
+}
 
 /* MAIN CONTENT */
 
