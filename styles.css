@@ -172,6 +172,26 @@ header #main-navigation ul li a:hover {
   text-align: left;
 }
 
+.about-box {
+  display: inline-block;
+  margin: auto;
+  width: 33%;
+  padding: 20px 30px;   
+  vertical-align: top;
+}
+
+.about-box h4 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.about-box ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
 /* CARDS */
 .cards-box {
   display: inline-block;
