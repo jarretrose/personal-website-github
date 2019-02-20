@@ -204,6 +204,7 @@ header #main-navigation ul li a:hover {
 
 .card-text {
   padding: 10px;
+  font-style: italic;
 }
 
 .card-alt h1 {
@@ -275,7 +276,7 @@ header #main-navigation ul li a:hover {
 }
 
 .modal-content ul li a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
