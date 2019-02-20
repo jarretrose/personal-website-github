@@ -206,7 +206,7 @@ header #main-navigation ul li a:hover {
 .card {
   box-shadow: 10px 10px 5px grey;
   border: 1px solid lightgray;
-  max-width: 300px;
+  max-width: 400px;
   margin: auto;
   text-align: center;
 }
@@ -223,7 +223,7 @@ header #main-navigation ul li a:hover {
 .card-alt {
   box-shadow: 10px 10px 5px grey;
   border: 1px solid lightgray;
-  max-width: 300px;
+  max-width: 400px;
   margin: auto;
   text-align: left;
   background: white;
@@ -501,6 +501,5 @@ footer p a {
     background-color: #f2f2f2;
     padding: 20px;
   }
-
 }
 
