@@ -172,6 +172,10 @@ header #main-navigation ul li a:hover {
   text-align: left;
 }
 
+.about p a {
+  text-decoration: none;
+}
+
 .about-box {
   display: inline-block;
   width: 33%;
@@ -211,10 +215,14 @@ header #main-navigation ul li a:hover {
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
+.card-alt h1 {
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
 .card-alt {
   box-shadow: 10px 10px 5px grey;
   border: 1px solid lightgray;
-  padding-top: 10px; 
   max-width: 300px;
   margin: auto;
   text-align: left;
@@ -222,13 +230,21 @@ header #main-navigation ul li a:hover {
 }
 
 .card-text {
-  padding: 10px;
+  padding: 0 10px;
   font-style: italic;
 }
 
-.card-alt h1 {
-  text-align: center;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+.card-alt-text {
+  padding: 0 10px;
+}
+
+.card-alt-text ul {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.card-text a {
+  text-decoration: none;
 }
 
 .card img {
@@ -461,10 +477,16 @@ footer p a {
       color: #333;
   }
   
-/* CARDS BOXES   */
+/* BOXES   */
   .cards-box {
-      width: 100%;
-      display: block;
+    width: 100%;
+    display: block;
+  }
+
+  .about-box {
+    width: 100%;
+    display: block;
+    padding: 0;
   }
 
   .modal-content {
