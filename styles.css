@@ -259,11 +259,24 @@ header #main-navigation ul li a:hover {
   padding-left: 20px;
   padding-right: 20px;
   border: 1px solid #888;
-  width: 30%;
+  width: 50%;
   box-shadow: 20px 20px 10px #222;
   animation-name: animatedModal;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+
+.modal-content ul {
+  list-style: none
+}
+
+.modal-content li {
+  padding: 5px 0;
+}
+
+.modal-content ul li a {
+  color: black;
+  text-decoration: none;
 }
 
 @keyframes animatedModal {
@@ -274,8 +287,9 @@ header #main-navigation ul li a:hover {
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 12px;
   font-weight: bold;
+  padding: 10px 0 20px 0;
 }
 
 .close:hover,
@@ -431,6 +445,10 @@ footer p a {
   .cards-box {
       width: 100%;
       display: block;
+  }
+
+  .modal-content {
+    width: 100%
   }
 
 /* EMAIL FORM */
