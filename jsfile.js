@@ -1,3 +1,57 @@
+// BIOGRAPHY GAME
+let canvas = document.getElementById('biographyGame')
+let ctx = canvas.getContext('2d')
+let x = canvas.width / 2;
+let y = canvas.height - 30;
+
+let avatarHeight = 30;
+let avatarWidth = 10;
+let avatarX = 1;
+
+let rightPressed = false;
+let leftPressed = false;
+
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
+
+function keyDownHandler(e) {
+  if (e.key == "Right" || e.key == "ArrowRight") {
+    rightPressed = true;
+  }
+  else if (e.key == "Left" || e.key == "ArrowLeft") {
+    leftPressed = true;
+  }
+}
+
+function keyUpHandler(e) {
+  if (e.key == "Right" || e.key == "ArrowRight") {
+    rightPressed = false;
+  }
+  else if (e.key == "Left" || e.key == "ArrowLeft") {
+    leftPressed = false;
+  }
+}
+
+function drawAvatar() {
+  ctx.beginPath();
+    ctx.rect(avatarX, canvas.height - avatarHeight, avatarWidth, avatarHeight);
+    ctx.fillStyle = "#0095DD";
+    ctx.fill();
+  ctx.closePath();
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawAvatar();
+
+  if (rightPressed && avatarX < canvas.width-1 - avatarWidth) { avatarX += 1; }
+  else if (leftPressed && avatarX > 1) { avatarX -= 1; }
+
+}
+
+setInterval(draw, 10)
+
+
 // PROJECT MODAL 1 (code is sloppy and redundant here, need to refactor)
 const modal1 = document.getElementById('project-modal1');
 const span1 = document.getElementById('close1');
@@ -28,7 +82,6 @@ window.onclick = (event) => {
   if (event.target == modal2) modal2.style.display = 'none'
   if (event.target == modal3) modal3.style.display = 'none'
 }
-
 
 // RETURN TO TOP BUTTON
 window.onscroll = () => scrollFunction();

@@ -176,23 +176,14 @@ header #main-navigation ul li a:hover {
   text-decoration: none;
 }
 
-.about-box {
-  display: inline-block;
-  width: 33%;
-  padding: 20px 30px;   
-  vertical-align: top;
-}
-
-.about-box h4 {
-  text-align: left;
-  margin-bottom: 5px;
-}
-
-.about-box ul {
-  text-align: left;
-  list-style: none;
-  padding: 0;
-  margin-top: 0;
+/* BIO GAME */
+#biographyGame {
+  width: 100%;
+  height: 320px;
+  background: lightgray;
+  background-image: url('public/images/background.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* CARDS */
