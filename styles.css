@@ -182,7 +182,7 @@ header #main-navigation ul li a:hover {
 .card {
   box-shadow: 10px 10px 5px grey;
   border: 1px solid lightgray;
-  width: 400px;
+  width: 100%;
   margin: auto;
   text-align: center;
   border-radius: 5%;
@@ -233,8 +233,7 @@ header #main-navigation ul li a:hover {
 .card-alt {
   box-shadow: 10px 10px 5px grey;
   border: 1px solid lightgray;
-  width: 400px;
-  height: 400px;
+  width: 100%;
   margin: auto;
   text-align: left;
   background: white;
