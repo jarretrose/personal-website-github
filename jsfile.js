@@ -53,10 +53,10 @@ const toggleEmail = () => {
 
   if (emailer.style.display === 'none') {
     emailer.style.display = 'block'
-    emailer.scrollIntoView()
+    emailer.scrollIntoView({behavior: 'smooth'})
   } else {
     emailer.style.display = 'none'
+    connect.scrollIntoView(false, {behavior: 'smooth'})
   }
 }
-
 // ********************
