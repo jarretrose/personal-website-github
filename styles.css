@@ -4,11 +4,12 @@ class can be used more than once; selector is a .
 */ 
 
 /* DEFAULT STYLING */
-* {
-  box-sizing: border-box;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
