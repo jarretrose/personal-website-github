@@ -506,6 +506,10 @@ blockquote, figure {
 
 @media screen and (max-width: 768px) {
 
+  .about, .skills, .projects {
+    padding: 2vh 0;
+  }
+
   /* HEADER   */
   header #page-header {
       width: 100%;
