@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
 }
 
@@ -170,8 +170,8 @@ header #main-navigation ul li a:hover {
 
 /* SECTIONS */
 
-.about, .skills, .projects {
-  padding: 2vh 15vw;
+.about {
+  padding: 2vh 10vw;
 }
 
 .about p {
@@ -506,8 +506,8 @@ blockquote, figure {
 
 @media screen and (max-width: 768px) {
 
-  .about, .skills, .projects {
-    padding: 2vh 0;
+  .about {
+    padding: 2vh 2vw;
   }
 
   /* HEADER   */
