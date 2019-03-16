@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
 }
 
@@ -171,7 +171,7 @@ header #main-navigation ul li a:hover {
 /* SECTIONS */
 
 .about, .skills, .projects {
-  padding: 2vh 10vw;
+  padding: 2vh 15vw;
 }
 
 .about p {
@@ -499,7 +499,7 @@ blockquote, figure {
 
 .quote {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* BASIC MOBILE RESPONSIVE */
