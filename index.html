@@ -8,7 +8,7 @@
   <link rel='stylesheet' href='styles.css'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
     integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <script type='text/javascript' src='jsfile.js' defer></script>
   <title>jkr@home</title>
 </head>
@@ -18,264 +18,266 @@
   <!-- RETURN TO TOP BUTTON -->
   <button onclick='topFunction()' id='topButton' title='Go to top'>Top</button>
 
-  <!-- HEADER -->
-  <header>
+  <!-- SIDE NAVIGATION -->
+  <div class="sidebar">
+    <div class='name'>
+      <h1>Jarret Rose</h1>
+      <p>Full Stack Engineer</p>
+    </div>
+    <div class='links'>
+      <a href="#_about">About</a>
+      <a href="#_skills">Skills</a>
+      <a href="#_projects">Projects</a>
+      <a href="#_connect">Connect</a>
+      <a href='https://resume.creddle.io/resume/65n2r0bm93x' target='_blank' rel='nofollow'>Resume</a>
+    </div>
+  </div>
 
-    <!-- LOGO -->
-    <h2 id='page-header'>
-      <a href='https://jarretrose.com/'>
-        <img src='public/images/1046008670.png' alt='Profile Pic'>
-        Jarret K. Rose | Portfolio
-      </a>
-    </h2>
-
-    <!-- NAVIGATION -->
-    <nav id='main-navigation'>
-      <ul>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#skills'>Skills</a></li>
-        <li><a href='#projects'>Projects</a></li>
-        <li><a href='#connect'>Connect</a></li>
-        <li><a href='https://resume.creddle.io/resume/65n2r0bm93x' target='_blank' rel='nofollow'>Resume</a></li>
-      </ul>
-    </nav>
-
-  </header>
+  <!-- SPLASH PAGE -->
+  <section id='_splash' class='splash'>
+    <div class='splash-container'>
+      <h1>Hi. I'm Jarret.</h1>
+      <h2>I'm a Full Stack Engineer</h2>
+    </div>
+  </section>
 
   <!-- MAIN -->
-  <div id='page-main'>
-
-    <!-- HERO -->
-    <div class='hero'>
-      <div class='hero-content'>
-        <h1 class='hero-title'>Hi, I'm Jarret</h1>
-        <p>I'm a Full Stack Software Engineer</p>
-      </div>
-    </div>
+  <section class='main-content'>
 
     <!-- ABOUT -->
-    <section id='about' class='site-section about mainbg'>
-      <div class='section-header'>
+    <section id='_about' class='site-section about'>
+      <header class='section-header'>
         <h2>About Me</h2>
+      </header>
+      <div class='section-content'>
         <p>
-          I am a college English instructor turned full stack software engineer. I enjoy weaving my academic interests
-          together with my new-found love of code, with a particular focus on the ways in which coding and technology
-          can help make everyday life a little bit easier and a little bit better for everyone.
-        </p>
-        <p>
-          I began my journey to code in the fall of 2017. I fumbled around on websites like W3schools and MDN and spent
-          a few bucks for online courses. These were ok, but they lacked the kind of deep and immersive educational
-          experience that I had become accustomed to over the previous ten years of my academic life. It was enough,
-          however, to get me thinking seriously about a career change. I spent a couple months researching bootcamps as
-          well as more traditional (academic) routes, narrowing my choices down before finally deciding on <a
-            href='https://www.fullstackacademy.com/' target='_blank'>Fullstack Academy of Code</a>. I began my bootcamp
-          career with the <i>Remote Bootcamp Prep in a Month</i> course followed by the 24 week <i>Flex Part-Time
-            Immersive</i> in New York City. It was simultaneously the most rewarding, most challenging, and most
-          frustrating endeavor I had undertaken in my life.
+          For nearly ten years I had been pursuing a career as a college professor. During that time the educational
+          tools that I gravitated toward in order to facilitate student engagement ultimately led me down new avenues of
+          learning as well. These opportunities allowed me to explore a more fulfilling role; one which lay in the
+          development and implementation of tools and technologies that may make everyday tasks a little bit easier and
+          a little bit better for everyone. After making the decision to change careers I applied and was accepted to
+          Fullstack Academy’s Flex Immersive bootcamp, which I completed this past December.
         </p>
       </div>
     </section>
 
     <!-- SKILLS -->
-    <section id='skills' class='site-section skills altbg'>
-      <div class='section-header'>
+    <section id='_skills' class='site-section'>
+      <header class='section-header'>
         <h2>Skills</h2>
-      </div>
+      </header>
 
-      <div class='cards-box'>
+      <div class='section-content'>
+        <div class='grid-skills'>
 
-        <div class='card-alt'>
-          <h1>Code</h1>
-          <div class='card-alt-text'>
-            <p>
-              At Fullstack, besides vanilla JavaScript, our technology focus was primarily on the <i>NERDS</i> stack:
-              <ul>
-                <li><b>N</b>ode</li>
-                <li><b>E</b>xpress</li>
-                <li><b>R</b>eact (with Redux)</li>
-                <li><b>D</b>atabases using <b>S</b>QL</li>
-              </ul>
-            </p>
-            <p>
-              In addition to these, we spent time learning some HTML and CSS. We also learned the fundamentals of Test
-              Driven Development, primarily with Mocha and Chai. Finally, we were encouraged to explore additional
-              tools and technologies in our projects, such as Material-UI, Stripe, and Bootstrap (to name a few).
+          <div class='individual-skill'>
+            <img src='./public/images/html5.png' alt='html5'>
+            <div class='skill-text'>
+              <p>HTML5</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/css3.png' alt='css3'>
+            <div class='skill-text'>
+              <p>CSS3</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/bootstrap.png' alt='bootstrap'>
+            <div class='skill-text'>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/material-ui-logo.svg' alt='material ui'>
+            <div class='skill-text'>
+              <p>Material-UI</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/javascript.png' alt='javascript'>
+            <div class='skill-text'>
+              <p>JavaScript</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/nodejs.png' alt='node'>
+            <div class='skill-text'>
+              <p>Node</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/express.png' alt='express'>
+            <div class='skill-text'>
+              <p>Express</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/react.png' alt='react'>
+            <div class='skill-text'>
+              <p>React</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/redux.svg' alt='redux'>
+            <div class='skill-text'>
+              <p>Redux</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/postgresql.png' alt='postgresql'>
+            <div class='skill-text'>
+              <p>PostgreSQL</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/webpack.png' alt='webpack'>
+            <div class='skill-text'>
+              <p>Webpack</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/git.png' alt='git'>
+            <div class='skill-text'>
+              <p>Git</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/github.png' alt='github'>
+            <div class='skill-text'>
+              <p>Github</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/npm.png' alt='npm'>
+            <div class='skill-text'>
+              <p>npm</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/heroku.png' alt='heroku'>
+            <div class='skill-text'>
+              <p>Heroku</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/sequelize.png' alt='sequelize'>
+            <div class='skill-text'>
+              <p>PostgreSQL</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/mocha.svg' alt='mocha'>
+            <div class='skill-text'>
+              <p>Mocha</p>
+            </div>
+          </div>
+
+          <div class='individual-skill'>
+            <img src='./public/images/chai.png' alt='chai'>
+            <div class='skill-text'>
+              <p>Chai</p>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class='cards-box'>
-        <div class='card-alt'>
-          <h1>Creativity</h1>
-          <div class='card-alt-text'>
-            <p>
-              As an academic in the humanities, and especially from an English Department with a rich history of
-              philosophical discourse and post-structural attitudes, I consider my approach to any challenge or problem
-              to be heavily reliant upon rigor and logic. However, within any formalized structure, it is creativity --
-              the ability to seek out new and meaningful connections within a framework -- that is of the greatest
-              import.
-            </p>
-            <p>
-              I believe that this concept of finding meaningful connections translates directly to writing code; code
-              operates within frameworks, but code often plays with rigidity and flexibility (for example, the notion of
-              opionated vs. unopinionated software).
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class='cards-box'>
-        <div class='card-alt'>
-          <h1>Compassion</h1>
-          <div class='card-alt-text'>
-            <p>
-              I strongly believe that compassion and empathy are much needed in <i>all</i> facets of the social
-              spectrum. A compassionate and empathetic attitude is crucial in fostering healthier and more inclusive
-              communities, however those communities are defined.
-            </p>
-            <p>
-              In order to build rapport with clients and coworkers alike, compassion is the key to understanding
-              different perspectives while listening to and validating the needs of others. I believe in the importance
-              of these attitudes in both social and professional interactions.
-            </p>
-          </div>
-        </div>
-      </div>
-
     </section>
 
     <!-- PROJECTS -->
-    <section id='projects' class='site-section projects mainbg'>
-      <div class='section-header'>
+    <section id='_projects' class='site-section projects'>
+      <header class='section-header'>
         <h2>Projects</h2>
-      </div>
+      </header>
 
-      <!-- PROJECT CARD -->
-      <div class='cards-box'>
-        <div class='card'>
-          <img src='public/images/fullstackstrash.png' alt='project image'>
-          <h1>Fullstacks of Trash</h1>
-          <div class='card-text'>
-            <p>e-commerce mockup</p>
+      <div class='section-content'>
+
+        <div class='grid-projects'>
+
+          <div class='individual-project'>
+            <p><img src="public/images/fridgeraider.png" alt="Fridge Raider">
+              <ul class='project-details'>
+                <li><a href='https://www.fullstackacademy.com/' target='_blank'>Fullstack
+                    Academy of Code</a> senior-phase capstone group project.</li>
+                <li>Fully functional recipe search web application with user input, login
+                  and save features, and social sharing options.</li>
+                <li>Technologies used: JavaScript, Node, Express, React, Redux, Material-UI,
+                  Neo4j graph database, Neode (an OGM for Neo4j).</li>
+                <li>Video presentation of the project: <a
+                    href='https://www.youtube.com/watch?v=q9vglRy6sJU&feature=youtu.be' target='_blank'>here.</a></li>
+                <li>Check out the app: <a href='http://www.thefridgeraid.com/#/' target='_blank'>here.</a></li>
+              </ul>
+
+              <hr class='small-screen-only'>
+            </p>
           </div>
-          <p><button id='modal-button1'>More Details</button></p>
-        </div>
-      </div>
 
-      <!-- PROJECT MODAL -->
-      <div id='project-modal1' class='modal'>
 
-        <!-- MODAL CONTENT -->
-        <section class="notepaper">
-            <figure class="quote">
-              <blockquote>
-                  <i class="fas fa-check"></i>&emsp;<a href='https://www.fullstackacademy.com/' target='_blank'>Fullstack Academy of Code</a> senior-phase group project.
-                    <br>
-                    <i class="fas fa-check"></i>&emsp;Built from scratch and deployed to Heroku.
-                    <br>
-                    <i class="fas fa-check"></i>&emsp;Fully functional e-commerce site with products, inventory, reviews, a persistent cart, and cheeckout features.
-                    <br>
-                    <i class="fas fa-check"></i>&emsp;Technologies used: JavaScript, Node, Express, React, Redux, Material-UI, Stripe, PostgreSQL, Sequelize.
-                    <br>
-                    <i class="fas fa-check"></i>&emsp;Check out the project: <a href='https://fullstacks-of-trash-final.herokuapp.com/#/'
-                    target='_blank'>here.</a>
-              </blockquote>
-            </figure>
-            <div id='close1' class='close'>close</div>
-          </section>
-        </div>
-
-      <!-- PROJECT CARD -->
-      <div class='cards-box'>
-        <div class='card'>
-          <img src='public/images/kidquest.png' alt='project image'>
-          <h1>Kid Quest!</h1>
-          <div class='card-text'>
-            <p>a kind-hearted, kid-friendly game</p>
+          <div class='individual-project'>
+            <p><img src="public/images/kidquest.png" alt="Kid Quest">
+              <ul class='project-details'>
+                <li><a href='https://www.fullstackacademy.com/' target='_blank'>Fullstack
+                    Academy of Code</a> solo hackathon project ("Stackathon").</li>
+                <li>A platformer demo with character dialogue, scene cuts,
+                  movement, interactive physics, and animation. Deployed to Heroku.</li>
+                <li>Technologies used: JavaScript, Node, Express, Phaser 3 (a JavaScript
+                  game framework for HTML5 & Canvas apps).</li>
+                <li>Video presentation of the Project: <a
+                    href='https://www.youtube.com/watch?v=TKgg4P3ldWo&index=12&t=2s&list=PLx0iOsdUOUmkzDAnkcb-VkZ_4FIhSs75I'
+                    target='_blank'>here.</a></li>
+                <li>Check out the project: <a href='https://kidsquest.herokuapp.com/' target='_blank'>here.</a></li>
+                <hr class='small-screen-only'>
+            </p>
           </div>
-          <p><button id='modal-button2'>More Details</button></p>
-        </div>
-      </div>
 
-      <!-- PROJECT MODAL -->
-      <div id='project-modal2' class='modal'>
-
-        <!-- MODAL CONTENT -->
-        <section class="notepaper">
-          <figure class="quote">
-            <blockquote>
-              <i class="fas fa-check"></i>&emsp;<a href='https://www.fullstackacademy.com/' target='_blank'>Fullstack
-                Academy of Code</a> solo hackathon project ("Stackathon").
-              <br>
-              <i class="fas fa-check"></i>&emsp;A fully functional platformer demo with character dialogue, scene cuts,
-              movement, interactive physics, and animation. Deployed to Heroku.
-              <br>
-              <i class="fas fa-check"></i>&emsp;Technologies used: JavaScript, Node, Express, Phaser 3 (a JavaScript
-              game framework for HTML5 & Canvas apps).
-              <br>
-              <i class="fas fa-check"></i>&emsp;Video presentation of the Project: <a
-                href='https://www.youtube.com/watch?v=TKgg4P3ldWo&index=12&t=2s&list=PLx0iOsdUOUmkzDAnkcb-VkZ_4FIhSs75I'
-                target='_blank'>here.</a>
-              <br>
-              <i class="fas fa-check"></i>&emsp;Check out the project: <a href='https://kidsquest.herokuapp.com/'
-                target='_blank'>here.</a>
-            </blockquote>
-          </figure>
-          <div id='close2' class='close'>close</div>
-        </section>
-      </div>
-
-      <!-- PROJECT CARD -->
-      <div class='cards-box'>
-        <div class='card'>
-          <img src='public/images/fridgeraider.png' alt='project image'>
-          <h1>Fridge Raider</h1>
-          <div class='card-text'>
-            <p>recipe search-by-ingredient web app</p>
+          <div class='individual-project'>
+            <p><img src="public/images/fullstackstrash.png" alt="Fullstacks of Trash">
+              <ul class='project-details'>
+                <li><a href='https://www.fullstackacademy.com/' target='_blank'>Fullstack Academy of Code</a>
+                  senior-phase group project.</li>
+                <li>Fully functional e-commerce site with products, inventory, reviews, a persistent cart, and cheeckout
+                  features.</li>
+                <li>Technologies used: JavaScript, Node, Express, React, Redux, Material-UI, Stripe, PostgreSQL,
+                  Sequelize.</li>
+                <li>Built from scratch and deployed to Heroku.</li>
+                <li>Check out the project: <a href='https://fullstacks-of-trash-final.herokuapp.com/#/'
+                    target='_blank'>here.</a></li>
+              </ul>
+              <hr class='small-screen-only'>
+            </p>
           </div>
-          <p><button id='modal-button3'>More Details</button></p>
+
+
+
         </div>
       </div>
-
-      <!-- PROJECT MODAL -->
-      <div id='project-modal3' class='modal'>
-
-        <!-- MODAL CONTENT -->
-        <section class="notepaper">
-          <figure class="quote">
-            <blockquote>
-              <i class="fas fa-check"></i>&emsp;<a href='https://www.fullstackacademy.com/' target='_blank'>Fullstack
-                Academy of Code</a> senior-phase capstone group project.
-              <br>
-              <i class="fas fa-check"></i>&emsp;Fully functional recipe search web application with user input, login
-              and save features, and social sharing options.
-              <br>
-              <i class="fas fa-check"></i>&emsp;Fully functional recipe search web application with user input, login
-              and save features, and social sharing options.
-              <br>
-              <i class="fas fa-check"></i>&emsp;Technologies used: JavaScript, Node, Express, React, Redux, Material-UI,
-              Neo4j graph database, Neode (an OGM for Neo4j).
-              <br>
-              <i class="fas fa-check"></i>&emsp;Video presentation of the project: <a
-                href='https://www.youtube.com/watch?v=q9vglRy6sJU&feature=youtu.be' target='_blank'>here.</a>
-              <br>
-              <i class="fas fa-check"></i>&emsp;Check out the app: <a href='http://www.thefridgeraid.com/#/'
-                target='_blank'>here.</a>
-            </blockquote>
-          </figure>
-          <div id='close3' class='close'>close</div>
-        </section>
-      </div>
-
-
     </section>
 
     <!-- CONNECT -->
-    <section id='connect' class='site-section connect altbg'>
-      <div class='section-header'>
+    <section id='_connect' class='site-section connect'>
+      <header class='section-header'>
         <h2>Connect</h2>
+      </header>
+
+      <div class='section-content'>
 
         <p>You can find me on...</p>
+        <br />
         <div class='connect-icons'>
           <a href='https://github.com/jarretrose' target='_blank'>
             <i class='fab fa-github-square'></i></a>
@@ -284,10 +286,13 @@
 
           <a href='https://twitter.com/JarretRose' target='_blank'><i class='fab fa-twitter-square'></i></a>
         </div>
+        <div id='email-button'>
+          <button onclick='toggleEmail()' id='emailer-button'>Or Send Me An Email</button>
+        </div>
+
 
         <!-- EMAIL FORM -->
         <div class='email-wrapper'>
-          <button onclick='toggleEmail()' id='emailer-button'>Or Send Me An Email</button>
 
           <div id='emailer' style='display:none'>
             <form action='https://formspree.io/jarretrose@gmail.com' method='POST'>
@@ -314,14 +319,10 @@
         </div>
 
       </div>
+      </div>
     </section>
 
-  </div>
-
-  <!-- FOOTER -->
-  <footer id='page-footer'>
-  </footer>
-
+  </section>
 </body>
 
 </html>
