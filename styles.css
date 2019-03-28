@@ -48,16 +48,18 @@ html, body {
   margin: 0;
   padding: 0;
   width: 14vw;
-  background-color: #f1f1f1;
+  background-color: white;
   position: fixed;
   height: 100vh;
   overflow: auto;
-  font-size: calc(8px + (18 - 8) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
+  border-right: 1px solid lightgray;
 }
 
 .sidebar .name {
   padding: 20px 10px;
-  background-color: lightblue;
+  background-color: #B3E5FC;
+  border-bottom: 2px solid #4FC3F7;
 }
 
 .sidebar a {
@@ -111,10 +113,11 @@ html, body {
   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
   height: 10vh;
   padding: 0 10vw;
-  background-color: lightblue;
+  background-color: #B3E5FC;
   text-transform: uppercase;
   color: black;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  border-bottom: 2px solid #4FC3F7;
 }
 
 .section-content {
