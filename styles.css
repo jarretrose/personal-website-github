@@ -156,6 +156,10 @@ html, body {
   grid-area: auto;
 }
 
+.individual-project {
+  margin-bottom: 10vh;
+}
+
 .project-details > li {
   font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
   line-height: 150%;
@@ -166,11 +170,10 @@ html, body {
 }
 
 .individual-project > p > img {
-  width: 30vw;
+  width: 25vw;
   height: auto;
   float: left;
-  padding-bottom: 10vh;
-  padding-right: 3vw;
+  margin-right: 5vw;
 }
 
 /* CONNECT */
@@ -264,14 +267,9 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 1000px ) {
-  .individual-project > p {
-    padding-bottom: 5vh;
-  }
   .individual-project > p > img {
     width: 40vw;
     float: none;
-    padding-bottom: 0;
-    padding-right: 0;
   }
 }
 
