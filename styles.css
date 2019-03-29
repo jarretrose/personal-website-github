@@ -48,7 +48,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 14vw;
-  background-color: white;
+  background-color: rgba(179, 229, 252, .25);
   position: fixed;
   height: 100vh;
   overflow: auto;
@@ -58,8 +58,8 @@ html, body {
 
 .sidebar .name {
   padding: 20px 10px;
-  background-color: #B3E5FC;
-  border-bottom: 2px solid #4FC3F7;
+  background-color: rgba(179, 229, 252, 1);
+  border-bottom: 2px solid rgba(79, 195, 247, 1);
 }
 
 .sidebar a {
@@ -76,7 +76,7 @@ html, body {
 
 /* SPLASH PAGE */
 .splash {
-  margin-left: 12vw;
+  margin-left: 14vw;
   height: 100vh;
   font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
   color: whitesmoke;
@@ -100,6 +100,17 @@ html, body {
   margin-left: 14vw;
 }
 
+/* backgrounds */
+.about, .skills, .projects, .connect {
+  background-color: rgba(238, 238, 238, 0.5)!important;
+  background-image: url('./public/images/backgroundWood.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+  
+}
+
 /* GENERAL SITE SECTION STYLINGS */
 
 /* .site-section {
@@ -121,7 +132,7 @@ html, body {
 }
 
 .section-content {
-  margin: 5vh 15vw;
+  padding: 5vh 15vw;
   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300;
   line-height: 150%;
