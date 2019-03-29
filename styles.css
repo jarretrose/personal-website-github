@@ -184,10 +184,12 @@ html, body {
 }
 
 .individual-project > p > img {
-  width: 25vw;
+  width: 20vw;
   height: auto;
   float: left;
   margin-right: 5vw;
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
 }
 
 /* CONNECT */
@@ -274,13 +276,13 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-@media only screen and (min-width: 1001px ) {
+@media only screen and (min-width: 1046px ) {
   .small-screen-only {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1000px ) {
+@media only screen and (max-width: 1045px ) {
   .individual-project > p > img {
     width: 40vw;
     float: none;
@@ -303,7 +305,7 @@ input[type=submit]:hover {
     width: 30vw;
   }
   .individual-skill > img {
-    width: 30vw;
+    width: 20vw;
     padding-bottom: 5vh;
   }
 }
