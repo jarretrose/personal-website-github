@@ -102,13 +102,10 @@ html, body {
 
 /* backgrounds */
 .about, .skills, .projects, .connect {
-  background-color: rgba(238, 238, 238, 0.5)!important;
   background-image: url('./public/images/backgroundWood.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: color;
-  
 }
 
 /* GENERAL SITE SECTION STYLINGS */
