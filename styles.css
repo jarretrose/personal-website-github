@@ -27,7 +27,7 @@ html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
-  background-color: whitesmoke;
+  background-color: white;
   font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
   line-height: 1.25;
 }
@@ -37,7 +37,7 @@ html, body {
   display: none;
   position: fixed;
   bottom: 60px;
-  right: 10px;
+  right: 14vw;
   z-index: 99;
   border: none;
   outline: none; 
@@ -92,6 +92,12 @@ html, body {
   color: white;
 }
 
+/* MAIN CONTENT */
+.main-content {
+  margin-left: 12vw;
+  /* margin-right: 12vw; */
+}
+
 /* SPLASH PAGE */
 .splash {
   height: 100vh;
@@ -103,13 +109,8 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(18px + (30 - 21) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + (32 - 16) * ((100vw - 300px) / (1600 - 300)));
   color: whitesmoke;
-}
-
-/* MAIN CONTENT */
-.main-content {
-  margin-left: 12vw;
 }
 
 /* GENERAL SITE SECTION STYLINGS */
@@ -124,8 +125,9 @@ html, body {
 
 .section-header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
   height: 10vh;
   padding: 0 10vw;
@@ -133,31 +135,42 @@ html, body {
   text-transform: uppercase;
   color: black;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  border-bottom: 2px solid #4FC3F7;
+  border-bottom: 2px solid rgba(79, 195, 247, 1);
 }
 
 .section-content {
-  padding: 5vh 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 5vw 5vh 5vw;
   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300;
   line-height: 150%;
 }
+/* ABOUT */
+
+.about p {
+  padding: 0 8vw;
+}
+
 
 /* SKILLS */
 .grid-skills {
   display: inline-grid;
+  padding: 0 10vw;
   grid-template-columns: 20vw 20vw 20vw;
   row-gap: 10vh;
 }
 
 .individual-skill {
   position: relative;
-  /* border: solid; */
+  display: none;
+  text-align: center;
 }
 
 .skill-text {
   position: absolute;
-  width: 8vw;
+  width: 100%;
   bottom: 0;
   text-align: center;
 }
@@ -167,6 +180,34 @@ html, body {
   float: bottom;
   padding-bottom: 3vh;
   align-items: center;
+}
+
+/* Filte Skills List By Proficiency */
+
+.centered {
+  text-align: center;
+  padding: 1vh 0;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 1vh 1vw;
+  background-color: rgba(79, 195, 247, .25);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: rgba(79, 195, 247, 1);
+  color: white;
 }
 
 /* PROJECTS */
@@ -249,10 +290,10 @@ html, body {
 
 #emailer {
   margin: auto;
-  width: 80vw;
+  width: 60vw;
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 2vw;
+  padding: 10vh 10vw;
   box-shadow: 10px 10px 5px grey;
   border-radius: 5%;
 }
@@ -302,7 +343,7 @@ input[type=submit]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(24px + (30 - 24) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + (32 - 16) * ((100vw - 300px) / (1600 - 300)));
   color: black;
 }
 
@@ -319,16 +360,6 @@ footer {
   }
 }
 
-@media only screen and (max-width: 700px ) {
-  .project-details {
-    padding: 1vh 5vw;
-  }
-  .individual-project > img {
-    width: 40vw;
-    float: none;
-  }
-}
-
 @media only screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
@@ -336,7 +367,7 @@ footer {
     position: relative;
   }
   .sidebar a {float: left;}
-  .main-content {margin-left: 0vw;}
+  .main-content {margin-left: 0vw; margin-right: 0vw;}
   .splash { margin-left: 0vw;}
   .grid-skills {
     grid-template-columns: 40vw 40vw;
@@ -347,5 +378,15 @@ footer {
   .individual-skill > img {
     width: 20vw;
     padding-bottom: 5vh;
+  }
+  .project-details {
+    padding: 1vh 5vw;
+  }
+  .individual-project > img {
+    width: 40vw;
+    float: none;
+  }
+  #emailer {
+    width: 100vw;
   }
 }
