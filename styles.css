@@ -150,22 +150,24 @@ html, body {
 /* ABOUT */
 
 .about p {
-  padding: 0 8vw;
+  padding: 0 20vw 0 12vw;
 }
 
 
 /* SKILLS */
+
 .grid-skills {
   display: inline-grid;
-  padding: 0 10vw;
-  grid-template-columns: 20vw 20vw 20vw 20vw;
-  row-gap: 10vh;
+  grid-template-columns: 15vw 15vw 15vw 15vw;
+  row-gap: 5vh;
+  column-gap: 3vw;
 }
 
 .individual-skill {
   position: relative;
   display: none;
   text-align: center;
+  padding: 1vh 0;
 }
 
 .skill-text {
@@ -176,7 +178,7 @@ html, body {
 }
 
 .individual-skill > img {
-  width: 5vw;
+  width: 7vw;
   float: bottom;
   padding-bottom: 3vh;
   align-items: center;
@@ -199,6 +201,7 @@ html, body {
   padding: 1vh 1vw;
   background-color: rgba(79, 195, 247, .25);
   cursor: pointer;
+  border-radius: 5%;
 }
 
 .btn:hover {
