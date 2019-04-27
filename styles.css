@@ -1,6 +1,6 @@
 .parallax {
-  position : relative;
-  height : 100vh;
+  position: relative;
+  height: 100%;
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
@@ -15,6 +15,9 @@
   background-image: url('./public/images/sunset.jpg');
 }
 
+.paralsec3 {
+  background-image: url('./public/images/backgroundWood.jpg')
+}
 
 /* DEFAULT STYLING */
 *, *:before, *:after {
@@ -27,7 +30,7 @@ html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
-  background-color: white;
+  /* background-color: white; */
   font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
   line-height: 1.25;
 }
@@ -93,10 +96,6 @@ html, body {
 }
 
 /* MAIN CONTENT */
-.main-content {
-  margin-left: 12vw;
-  /* margin-right: 12vw; */
-}
 
 /* SPLASH PAGE */
 .splash {
@@ -116,11 +115,7 @@ html, body {
 /* GENERAL SITE SECTION STYLINGS */
 
 .site-section {
-  min-height: 80vh;
-  background-image: url('./public/images/backgroundWood.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 60vh;
 }
 
 .section-header {
@@ -130,7 +125,7 @@ html, body {
   justify-content: space-between;
   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
   height: 10vh;
-  padding: 0 10vw;
+  padding: 0 20vw;
   background-color: #B3E5FC;
   text-transform: uppercase;
   color: black;
@@ -142,17 +137,13 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 5vh 20vw;
   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300;
   line-height: 150%;
 }
+
 /* ABOUT */
-
-.about p {
-  padding: 0 20vw 0 12vw;
-}
-
 
 /* SKILLS */
 
