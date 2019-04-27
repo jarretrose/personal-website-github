@@ -150,7 +150,7 @@ html, body {
 .grid-skills {
   display: inline-grid;
   grid-template-columns: 15vw 15vw 15vw 15vw;
-  row-gap: 8vh;
+  row-gap: 10vh;
 }
 
 .individual-skill {
