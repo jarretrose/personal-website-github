@@ -150,8 +150,7 @@ html, body {
 .grid-skills {
   display: inline-grid;
   grid-template-columns: 15vw 15vw 15vw 15vw;
-  row-gap: 5vh;
-  column-gap: 3vw;
+  row-gap: 8vh;
 }
 
 .individual-skill {
@@ -169,9 +168,9 @@ html, body {
 }
 
 .individual-skill > img {
-  width: 7vw;
+  width: 5vw;
   float: bottom;
-  padding-bottom: 3vh;
+  padding-bottom: 2vh;
   align-items: center;
 }
 
@@ -189,6 +188,7 @@ html, body {
 .btn {
   border: none;
   outline: none;
+  font-size: calc(10px + (18 - 10) * ((100vw - 300px) / (1600 - 300)));
   padding: 1vh 1vw;
   background-color: rgba(79, 195, 247, .25);
   cursor: pointer;
@@ -369,7 +369,7 @@ footer {
   .main-content {margin-left: 0vw; margin-right: 0vw;}
   .splash { margin-left: 0vw;}
   .grid-skills {
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 30vw 30vw 30vw;
   }
   .skill-text {
     width: 100%;
