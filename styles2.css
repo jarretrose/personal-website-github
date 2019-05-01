@@ -38,11 +38,12 @@ main {
 
 .gradient {
   min-height: 100vh;
-  background-image: linear-gradient(
+  background: url(fakelogo.png) center center no-repeat,
+  linear-gradient(
     #08a0dc,
     #4bbbee,
     #fbc751,
     #62c246,
     #8fcdd4
-  )
+  );
 }
