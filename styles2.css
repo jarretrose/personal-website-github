@@ -1,0 +1,14 @@
+body, html {
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    #08a0dc,
+    #4bbbee,
+    #fbc751,
+    #62c246,
+    #8fcdd4
+  )
+}
