@@ -2,7 +2,41 @@ body, html {
   margin: 0;
 }
 
-main {
+.segmented {
+  min-height: 100vh;
+}
+
+.one {
+  min-height: 20vh;
+  background-color: #fbc751;
+}
+
+.two {
+  min-height: 20vh;
+  background-color: #fbb37b;
+}
+
+.three {
+  min-height: 20vh;
+  background-color: #cd2a9c;
+}
+
+.four {
+  min-height: 20vh;
+  background-color: #4187b4;
+}
+
+.five {
+  min-height: 20vh;
+  background-color: #f49c9a;
+}
+
+.break {
+  min-height: 20vh;
+  background-color: white;
+}
+
+.gradient {
   min-height: 100vh;
   background-image: linear-gradient(
     #fbc751,
