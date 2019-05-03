@@ -1,3 +1,10 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 .parallax {
   position: relative;
   height: 100%;
@@ -17,13 +24,6 @@
 
 .paralsec3 {
   background-image: url('./public/images/backgroundWood.jpg')
-}
-
-/* DEFAULT STYLING */
-*, *:before, *:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
 }
 
 html, body {
