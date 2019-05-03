@@ -2,41 +2,7 @@ body, html {
   margin: 0;
 }
 
-.segmented {
-  min-height: 100vh;
-}
-
-.one {
-  min-height: 20vh;
-  background-color: #fbc751;
-}
-
-.two {
-  min-height: 20vh;
-  background-color: #fbb37b;
-}
-
-.three {
-  min-height: 20vh;
-  background-color: #cd2a9c;
-}
-
-.four {
-  min-height: 20vh;
-  background-color: #4187b4;
-}
-
-.five {
-  min-height: 20vh;
-  background-color: #f49c9a;
-}
-
-.break {
-  min-height: 20vh;
-  background-color: white;
-}
-
-.gradient {
+main {
   min-height: 100vh;
   background: url(fakelogo.png) center center no-repeat,
     linear-gradient(
@@ -46,4 +12,9 @@ body, html {
       #4187b4,
       #f49c9a
     );
+}
+
+#canvas-splash {
+  width: 100vw;
+  height: 100vh;
 }
