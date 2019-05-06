@@ -30,7 +30,7 @@ html, body {
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
   /* background-color: white; */
-  font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + 6 * ((100vw - 300px) / (1600 - 300)));
   line-height: 1.25;
 }
 
@@ -72,7 +72,7 @@ html, body {
   position: fixed;
   height: 100vh;
   overflow: auto;
-  font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(8px + 8 * ((100vw - 300px) / (1600 - 300)));
   border-right: 1px solid lightgray;
 }
 
@@ -107,7 +107,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(16px + (32 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + 16 * ((100vw - 300px) / (1600 - 300)));
   color: whitesmoke;
 }
 
@@ -122,7 +122,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(12px + 10 * ((100vw - 300px) / (1600 - 300)));
   height: 10vh;
   padding: 0 20vw;
   background-color: #B3E5FC;
@@ -137,7 +137,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   padding: 5vh 20vw;
-  font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(12px + 10 * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300;
   line-height: 150%;
 }
@@ -187,7 +187,7 @@ html, body {
 .btn {
   border: none;
   outline: none;
-  font-size: calc(10px + (18 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(10px + 8 * ((100vw - 300px) / (1600 - 300)));
   padding: 1vh 1vw;
   background-color: rgba(79, 195, 247, .25);
   cursor: pointer;
@@ -227,7 +227,7 @@ html, body {
 .project-details {
   padding: 1vh 2vw;
   overflow: hidden;
-  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(12px + 6 * ((100vw - 300px) / (1600 - 300)));
   line-height: 150%;
 }
 
@@ -245,7 +245,7 @@ html, body {
 }
 
 .connect p {
-  font-size: calc(18px + (21 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(18px + 4 * ((100vw - 300px) / (1600 - 300)));
 }
 
 .connect-icons {
@@ -323,7 +323,7 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(12px + 10 * ((100vw - 300px) / (1600 - 300)));
   height: 3vh;
   padding: 0 10vw;
   background-color: #B3E5FC;
@@ -336,12 +336,12 @@ input[type=submit]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(16px + (32 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + 16 * ((100vw - 300px) / (1600 - 300)));
   color: black;
 }
 
 footer {
-  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(12px + 8 * ((100vw - 300px) / (1600 - 300)));
   text-align: center;
   background-color: rgba(179, 229, 252, 1);
   border-top: 2px solid rgba(79, 195, 247, 1);
