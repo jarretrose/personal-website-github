@@ -1,4 +1,4 @@
-<svg class="svg-view-box" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+<svg id="svgObject" class="svg-view-box" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
           <!-- <clipPath id="splash-text" class="splash-text">
             <text x="10" y="140" class="name-size">Jacob Schatz</text>
             <text x="10" y="240">Developer</text>

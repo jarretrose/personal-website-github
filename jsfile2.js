@@ -1,6 +1,6 @@
 window.onload=function() {
 	// Get the Object by ID
-	var a = document.getElementsByClassName("svg-view-box");
+	var a = document.getElementById("svgObject");
 	// Get the SVG document inside the Object tag
 	var svgDoc = a.contentDocument;
 	// Get one of the SVG items by ID;
