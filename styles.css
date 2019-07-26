@@ -35,6 +35,10 @@ html, body {
   line-height: 1.25;
 }
 
+h2 {
+  font-family: 'Special Elite', cursive;
+}
+
 /* RETURN TO TOP BUTTON */
 #topButton {
   display: none;
