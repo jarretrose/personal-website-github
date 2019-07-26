@@ -28,6 +28,7 @@
 html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
   font-family: 'Roboto', sans-serif;
   /* background-color: white; */
   font-size: calc(16px + 6 * ((100vw - 300px) / (1600 - 300)));
@@ -63,37 +64,6 @@ html, body {
   color: rgba(255,255,255,1);
 }
 
-/* SIDE NAV */
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 12vw;
-  background-color: white;
-  position: fixed;
-  height: 100vh;
-  overflow: auto;
-  font-size: calc(8px + 8 * ((100vw - 300px) / (1600 - 300)));
-  border-right: 1px solid lightgray;
-}
-
-.sidebar .name {
-  padding: 20px 10px;
-  background-color: rgba(179, 229, 252, 1);
-  border-bottom: 2px solid rgba(79, 195, 247, 1);
-}
-
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.sidebar a:hover {
-  background-color: #555;
-  color: white;
-}
-
 /* MAIN CONTENT */
 
 /* SPLASH PAGE */
@@ -107,8 +77,10 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(16px + 16 * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Special Elite', cursive;
+  font-size: calc(16px + 48 * ((100vw - 300px) / (1600 - 300)));
   color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* GENERAL SITE SECTION STYLINGS */
@@ -336,11 +308,14 @@ input[type=submit]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(16px + 16 * ((100vw - 300px) / (1600 - 300)));
-  color: black;
+  font-family: 'Special Elite', cursive;
+  font-size: calc(16px + 48 * ((100vw - 300px) / (1600 - 300)));
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
 }
 
 footer {
+  font-family: 'Special Elite', cursive;
   font-size: calc(12px + 8 * ((100vw - 300px) / (1600 - 300)));
   text-align: center;
   background-color: rgba(179, 229, 252, 1);
