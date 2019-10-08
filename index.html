@@ -16,7 +16,9 @@
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
     integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Fredericka+the+Great|Permanent+Marker|Sigmar+One|Special+Elite&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Fredericka+the+Great|Permanent+Marker|Sigmar+One|Special+Elite&display=swap"
+    rel="stylesheet">
   <script type='text/javascript' src='jsfile.js' defer></script>
   <title>jkr@home</title>
 </head>
@@ -24,14 +26,13 @@
 <body>
 
   <!-- RETURN TO TOP BUTTON -->
-  <button onclick='topFunction()' id='topButton' title='Go to top'>Top</button>
+  <button onclick='topFunction()' class="button" id='topButton' title='Go to top'>Top</button>
 
   <!-- SPLASH PAGE -->
   <section id='_splash' class='splash'>
     <div class="parallax paralsec1">
       <div class='splash-container'>
         <h1>Hi. I'm Jarret.</h1>
-        <h2>I'm a Full Stack Engineer.</h2>
       </div>
     </div>
   </section>
@@ -82,12 +83,11 @@
           <h2>Skills</h2>
         </header>
 
-        <div id="myBtnContainer" class='centered'>
-          <button class="btn active" onclick="filterSelection('all')">Show All</button>
-          <button class="btn" onclick="filterSelection('proficient')">Proficient</button>
-          <button class="btn" onclick="filterSelection('intermediate')">Intermediate</button>
-          <button class="btn" onclick="filterSelection('beginner')">Beginner</button>
-          <button class="btn" onclick="filterSelection('dabbler')">Dabbling</button>
+        <div id="skill-btns" class='centered'>
+          <button class="button skill-btn active" onclick="filterSelection('all')">Show All</button>
+          <button class="button skill-btn" onclick="filterSelection('proficient')">Proficient</button>
+          <button class="button skill-btn" onclick="filterSelection('intermediate')">Intermediate</button>
+          <button class="button skill-btn" onclick="filterSelection('beginner')">Beginner</button>
         </div>
 
         <div class='section-content'>
@@ -219,28 +219,21 @@
               </div>
             </div>
 
-            <div class='individual-skill dabbler'>
+            <div class='individual-skill beginner'>
               <img src='./public/images/neo4j.png' alt='neo4j'>
               <div class='skill-text'>
                 <p>Neo4j</p>
               </div>
             </div>
 
-            <div class='individual-skill dabbler'>
+            <div class='individual-skill beginner'>
               <img src='./public/images/typescript.png' alt='typescript'>
               <div class='skill-text'>
                 <p>TypeScript</p>
               </div>
             </div>
 
-            <!-- <div class='individual-skill dabbler'>
-              <img src='./public/images/angular.png' alt='angular'>
-              <div class='skill-text'>
-                <p>Angular</p>
-              </div>
-            </div> -->
-
-            <div class='individual-skill dabbler'>
+            <div class='individual-skill beginner'>
               <img src='./public/images/java.png' alt='java'>
               <div class='skill-text'>
                 <p>Java</p>
@@ -270,8 +263,9 @@
                 <li>JavaScript, Node, Express, React, Redux, PostgreSQL, Sequelize.</li>
                 <li><a href='https://shellys-site.herokuapp.com/#/' target='_blank'>Live Demo.</a></li>
               </ul>
-              <hr class='small-screen-only'>
             </div>
+
+            <br>
 
             <div class='individual-project'>
               <img src="public/images/jssite.png" alt="Jacob Schatz Personal Website">
@@ -282,8 +276,9 @@
                 <li>JavaScript, HTML, CSS only, per client request.</li>
                 <li><a href='https://pensive-haibt-e9f3d0.netlify.com/' target='_blank'>Live Demo.</a></li>
               </ul>
-              <hr class='small-screen-only'>
             </div>
+
+            <br>
 
             <div class='individual-project'>
               <img src="public/images/jjmath.png" alt="JJs Math Facts">
@@ -294,25 +289,25 @@
                 <li>JavaScript, React, Material-UI, deployed to Firebase.</li>
                 <li><a href='https://bit.ly/2UxyevH' target='_blank'>Live Demo.</a></li>
               </ul>
-              <hr class='small-screen-only'>
             </div>
 
+            <br>
 
             <div class='individual-project'>
               <img src="public/images/fridgeraider.png" alt="Fridge Raider">
               <ul class='project-details'>
                 <li>Title: "Fridge Raider"</li>
                 <li><a href='https://www.fullstackacademy.com/' target='_blank'>FSA</a> group capstone project.</li>
-                <li>Recipe search web app with user input, login
-                  and save features, and social sharing.</li>
-                <li>JavaScript, Node, Express, React, Redux, Material-UI,
-                  Neo4j graph database, Neode (an OGM for Neo4j).</li>
+                <li>Recipe search web app with user input, login and save features, and social sharing.</li>
+                <li>JavaScript, Node, Express, React, Redux, Material-UI, Neo4j graph database, Neode (an OGM for
+                  Neo4j).</li>
                 <li><a href='https://www.youtube.com/watch?v=q9vglRy6sJU&feature=youtu.be' target='_blank'>Video
                     Presentation.</a></li>
                 <li><a href='http://www.thefridgeraid.com/#/' target='_blank'>Live Demo.</a></li>
               </ul>
-              <hr class='small-screen-only'>
             </div>
+
+            <br>
 
             <div class='individual-project'>
               <img src="public/images/kidquest.png" alt="Kid Quest">
@@ -328,9 +323,7 @@
                     href='https://www.youtube.com/watch?v=TKgg4P3ldWo&index=12&t=2s&list=PLx0iOsdUOUmkzDAnkcb-VkZ_4FIhSs75I'
                     target='_blank'>Video Presentation.</a></li>
                 <li><a href='https://kidsquest.herokuapp.com/' target='_blank'>Live Demo.</a></li>
-                <hr class='small-screen-only'>
             </div>
-
           </div>
         </div>
       </section>
@@ -342,8 +335,7 @@
         </header>
 
         <div class='section-content'>
-
-          <p>You can find me on...</p>
+          <p>Reach out and say hello!</p>
           <br />
           <div class='connect-icons'>
             <a href='https://github.com/jarretrose' target='_blank'>
@@ -354,21 +346,17 @@
             <a href='https://twitter.com/JarretRose' target='_blank'><i class='fab fa-twitter-square'></i></a>
           </div>
           <div id='email-button'>
-            <button onclick='toggleEmail()' id='emailer-button'>Or Send Me An Email</button>
+            <button onclick='toggleEmail()' class="button" id='emailer-button'>Email</button>
           </div>
-
 
           <!-- EMAIL FORM -->
           <div class='email-wrapper'>
-
             <div id='emailer' style='display:none'>
+
               <form action='https://formspree.io/jarretrose@gmail.com' method='POST'>
 
-                <label for='firstname'>First Name</label>
+                <label for='firstname'>Name</label>
                 <input type='text' id='firstname' name='firstname' placeholder='Your name...'>
-
-                <label for='lastname'>Last Name</label>
-                <input type='text' id='lastname' name='lastname' placeholder='Your last name...'>
 
                 <label for='replyto'>Reply-To Email</label>
                 <input type='email' id='email' name='email' placeholder='you@youremail.com'>
@@ -380,20 +368,19 @@
                 <textarea id='message' name='message' placeholder='Write your message here...'></textarea>
 
                 <input type='submit' value='Submit'>
-
               </form>
+
             </div>
           </div>
-
         </div>
       </section>
     </div>
   </section>
 
   <section id='_bye'>
-    <div class='bye-header'></div>
+    <div class='section-header'></div>
     <div class="parallax paralsec2">
-      <div class='bye-container'>
+      <div class='splash-container'>
         <h2>Thanks for stopping by!</h2>
       </div>
     </div>
